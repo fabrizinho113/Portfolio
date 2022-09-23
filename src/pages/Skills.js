@@ -55,7 +55,7 @@ const Skills = () => {
                   <SiHandshake />Spanish <BorderLinearProgress variant="determinate" value={100} />
                   <p>My native language</p>
                   <SiHandshake/>English<BorderLinearProgress variant="determinate" value={70} />
-                  <p>B2 Level (got my FCE) but I talk with foreigners everyday to not forget how to communicate properly </p>
+                  <p>B2 Level (got my FCE certificate)</p>
                 </div> 
 
             </div>
