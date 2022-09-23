@@ -3,13 +3,19 @@
     background: rgb(15, 15, 80);
     width: 100vw;
     height: 100vh;
-
+    overflow-y: auto;
     .text{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        margin-top: 100px;
+        margin-left: 29%;
+        margin-bottom: 100px;
         color: #fff;
+        width: 800px;
+        text-align: center;
+
+        @media only screen and (max-width: 1150px){
+            margin-left: 0;
+            width: auto;
+        }
 
         h1{
             position: relative;

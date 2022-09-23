@@ -7,15 +7,38 @@
 
     .main-objective {
         animation: fadeInDown 1s forwards;
+
+        @media only screen and (max-width: 440px){
+            h1{
+                font-size: 50px;
+            }
+
+            h3{
+                font-size: 35px;
+            }
+        }
     }
 
     .other-objectives{
         animation: fadeIn 2s forwards;
+        @media only screen and (max-width: 440px){
+            h2{
+                font-size: 50px;
+            }
+
+            
+        }
     }
 
     .side-objectives{
-        
         margin-bottom: 100px;
+
+        @media only screen and (max-width: 440px){
+            h2{
+                font-size: 50px;
+            }
+
+        }
     }
 
     h1, h2{
@@ -24,6 +47,8 @@
         font-weight: 600;
         text-align: center;
         margin-top: 100px;
+
+        
     }
 
     h3, h5{

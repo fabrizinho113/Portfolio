@@ -42,6 +42,24 @@
             >*{
                 margin: 6px;
             }
+
+            @media only screen and (max-width: 400px){
+                width: 310px;
+                height: auto;
+                margin-top: 130px;
+                border-bottom: 2px solid #fff;
+
+                h1{
+                    font-size: 20px;
+                }
+
+                p{
+                    font-size: 14px;
+                }
+            }
+            >*{
+                margin: 6px;
+            }
         }
 
         .skill-social{
@@ -55,6 +73,24 @@
                 height: 800px;
                 margin-top: 80px;
                 margin-bottom: 100px;
+            }
+            >*{
+                margin: 6px;
+            }
+
+            @media only screen and (max-width: 400px){
+                width: 310px;
+                height: 800px;
+                margin-top: 10px;
+                border-bottom: 2px solid #fff;
+            }
+
+            p{
+                font-size: 14px;
+            }
+
+            h1{
+                font-size: 20px;
             }
             >*{
                 margin: 6px;
