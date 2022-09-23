@@ -1,0 +1,37 @@
+.bg-home {
+    z-index: -1;
+    background: rgb(15, 15, 80);
+    width: 100vw;
+    height: 100vh;
+
+    .text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+
+        h1{
+            position: relative;
+            font-size: 70px;
+            font-weight: 600;
+            font-family: 'League Spartan', sans-serif;
+            margin-bottom: 20px;
+            animation: fadeInLeft 1s forwards;
+        }
+
+        h2{
+            font-family: 'League Spartan', sans-serif;
+            animation: fadeInUp 2s forwards;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #fff;
+        }
+
+        h3{
+            animation: fadeInUp 2.5s forwards;
+        }
+    }
+
+
+}

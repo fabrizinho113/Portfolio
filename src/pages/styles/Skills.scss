@@ -1,0 +1,70 @@
+.bg-skills {
+    z-index: -1;
+    background: rgb(15, 15, 80);
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+
+    .skills{
+        position: absolute;
+        margin-top: 40px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-family: 'League Spartan', sans-serif;
+        display: flex;
+        flex-direction: row;
+
+        @media only screen and (max-width: 600px){
+            display: flex;
+            flex-direction: column;
+            margin-top: 0px;
+            margin-left: 0;
+            position: relative;
+            top: 91%;
+            left: 55%;
+        }
+
+        .skill-programming{
+            width: 600px;
+            height: 800px;
+            margin-right: 300px;
+            padding: 5px;
+            animation: fadeInLeft 1.5s forwards;
+
+            @media only screen and (max-width: 600px){
+                width: 400px;
+                height: 800px;
+                margin-top: 100px;
+                border-bottom: 2px solid #fff;
+            }
+            >*{
+                margin: 6px;
+            }
+        }
+
+        .skill-social{
+            width: 600px;
+            height: 800px;
+            padding: 5px;
+            animation: fadeInRight 1.5s forwards;
+
+            @media only screen and (max-width: 600px){
+                width: 400px;
+                height: 800px;
+                margin-top: 80px;
+                margin-bottom: 100px;
+            }
+            >*{
+                margin: 6px;
+            }
+        }
+        h1{
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+    }
+
+
+}
