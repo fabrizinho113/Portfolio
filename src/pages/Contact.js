@@ -1,5 +1,5 @@
 import {AiOutlineLinkedin, AiFillGithub} from 'react-icons/ai';
-import { SiDiscord, SiSteam, SiGmail } from 'react-icons/si'; 
+import { SiDiscord, SiSteam, SiGmail, SiTelegram } from 'react-icons/si'; 
 import './styles/Contact.scss'
 
 const Contact = () => {
@@ -19,6 +19,10 @@ const Contact = () => {
 
                 <div>
                     <h3><AiFillGithub /> - <a href="https://github.com/fabrizinho113">Github</a></h3> 
+                </div>
+
+                <div>
+                    <h3><SiTelegram /> - <a href="https://t.me/FabriHotkowicz">Telegram</a></h3> 
                 </div>
                 
                 </div> 

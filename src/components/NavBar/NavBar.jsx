@@ -66,7 +66,7 @@ function NavBar(props) {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, fontFamily: 'Arcade' }}
           >
-            My Portfolio
+           <Link style={{textDecoration: 'none', color: "#fff"}} to="/home">My Portfolio</Link>
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (

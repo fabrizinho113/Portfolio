@@ -10,6 +10,10 @@
         color: #fff;
         text-align: center;
         animation: fadeInDown 1s forwards;
+
+        @media only screen and (max-width: 400px){
+            font-size: 40px;
+        }
     }
 
     h4{
@@ -17,6 +21,10 @@
         margin-top: 20px;
         color: #fff;
         text-align: center;
+
+        @media only screen and (max-width: 400px){
+            font-size: 20px;
+        }
     }
 
     .card-projects{
@@ -33,7 +41,7 @@
         @media only screen and (max-width: 1150px){
             display: flex;
             flex-direction: column;
-            margin-top: 20px;
+            margin-top: 10px;
             margin-left: 0;
         }
 
